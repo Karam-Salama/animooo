@@ -16,6 +16,10 @@ dependencies:
   cupertino_icons: ^1.0.8
   # SVG rendering and display support
   flutter_svg: ^2.0.9
+  # Local storage for simple key-value pairs
+  shared_preferences: ^2.3.5
+  # Persistent bottom navigation bar for Flutter
+  persistent_bottom_nav_bar: ^6.2.1
 
 #==================================  Dev  Dependencies  Section  ==============================
 dev_dependencies:

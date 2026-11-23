@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 
-import '../../../core/utils/app_strings.dart';
 import '../../../core/utils/app_styles.dart';
 import '../../../core/widgets/custom_btn.dart';
 
-class OnboardingButton extends StatelessWidget {
-  const OnboardingButton({super.key});
-
+class CoreButton extends StatelessWidget {
+  const CoreButton({super.key, required this.text, required this.click});
+  final String text;
+  final VoidCallback? click;
   @override
   Widget build(BuildContext context) {
     return CustomButton(
-      text: AppStrings.getStarted,
+      text: text,
       style: AppStyles.poppins600WhiteColor15,
       mainAxisAlignment: MainAxisAlignment.center,
-      onPressed: () {},
+      onPressed: click,
     );
   }
 }

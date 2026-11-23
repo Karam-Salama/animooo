@@ -1,3 +1,5 @@
+import 'package:animooo/core/functions/navigation.dart';
+import 'package:animooo/modules/auth/presentation/views/login_view.dart';
 import 'package:flutter/material.dart';
 
 import '../utils/app_strings.dart';
@@ -16,7 +18,9 @@ class AlreadyHaveAnAccount extends StatelessWidget {
           style: AppStyles.poppins400GreyColor13.copyWith(fontSize: 12.0),
         ),
         GestureDetector(
-          onTap: () {},
+          onTap: () {
+            customNavigate(context, LoginView.routeName);
+          },
           child: Text(
             AppStrings.login,
             style: AppStyles.poppins700PrimaryColor28.copyWith(

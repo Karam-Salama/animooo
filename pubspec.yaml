@@ -20,6 +20,8 @@ dependencies:
   shared_preferences: ^2.3.5
   # Persistent bottom navigation bar for Flutter
   persistent_bottom_nav_bar: ^6.2.1
+  # Email validation utility
+  email_validator: ^3.0.0
 
 #==================================  Dev  Dependencies  Section  ==============================
 dev_dependencies:

@@ -13,13 +13,13 @@ class AlreadyHaveAnAccount extends StatelessWidget {
       children: [
         Text(
           AppStrings.alreadyHaveAccount,
-          style: AppStyles.poppins400GreyColor14.copyWith(fontSize: 12.0),
+          style: AppStyles.poppins400GreyColor13.copyWith(fontSize: 12.0),
         ),
         GestureDetector(
           onTap: () {},
           child: Text(
             AppStrings.login,
-            style: AppStyles.poppins700PrimaryColor30.copyWith(
+            style: AppStyles.poppins700PrimaryColor28.copyWith(
               fontSize: 13.0,
               fontWeight: FontWeight.w600,
             ),

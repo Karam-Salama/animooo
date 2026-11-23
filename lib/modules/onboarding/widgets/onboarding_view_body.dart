@@ -13,7 +13,7 @@ class OnboardingViewBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return const SafeArea(
       child: Padding(
-        padding: EdgeInsets.symmetric(vertical: 50.0, horizontal: 16.0),
+        padding: EdgeInsets.symmetric(vertical: 20.0, horizontal: 16.0),
         child: CustomScrollView(
           slivers: [
             SliverToBoxAdapter(child: OnboardingLogo()),

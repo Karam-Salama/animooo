@@ -13,13 +13,13 @@ class OnboardingTexts extends StatelessWidget {
         Text(
           AppStrings.onboardingTitle1,
           textAlign: TextAlign.center,
-          style: AppStyles.poppins700PrimaryColor30,
+          style: AppStyles.poppins700PrimaryColor28,
         ),
         const SizedBox(height: 10.0),
         Text(
           AppStrings.onboardingSubtitle1,
           textAlign: TextAlign.center,
-          style: AppStyles.poppins400GreyColor14,
+          style: AppStyles.poppins400GreyColor13,
         ),
       ],
     );

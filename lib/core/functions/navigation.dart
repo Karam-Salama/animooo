@@ -9,6 +9,7 @@ void customNavigate(BuildContext context, String route) {
   Navigator.pushNamed(context, route);
 }
 
+// ignore: non_constant_identifier_names
 void CustomPersistentNavBarNavigation(
     BuildContext context, Widget screen, bool? withNavBar) {
   PersistentNavBarNavigator.pushNewScreen(

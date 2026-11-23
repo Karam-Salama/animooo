@@ -14,6 +14,7 @@ class SplashViewBody extends StatefulWidget {
 }
 
 class _SplashViewBodyState extends State<SplashViewBody> {
+  @override
   void initState() {
     delayedNavigate(OnboardingView.routeName);
     super.initState();
@@ -26,6 +27,7 @@ class _SplashViewBodyState extends State<SplashViewBody> {
 
   void delayedNavigate(String routeName) {
     Future.delayed(const Duration(seconds: 2), () {
+      // ignore: use_build_context_synchronously
       customReplacementNavigate(context, routeName);
     });
   }

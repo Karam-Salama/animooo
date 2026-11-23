@@ -1,0 +1,31 @@
+import 'package:flutter/material.dart';
+
+import '../utils/app_strings.dart';
+import '../utils/app_styles.dart';
+
+class AlreadyHaveAnAccount extends StatelessWidget {
+  const AlreadyHaveAnAccount({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Text(
+          AppStrings.alreadyHaveAccount,
+          style: AppStyles.poppins400GreyColor14.copyWith(fontSize: 12.0),
+        ),
+        GestureDetector(
+          onTap: () {},
+          child: Text(
+            AppStrings.login,
+            style: AppStyles.poppins700PrimaryColor30.copyWith(
+              fontSize: 13.0,
+              fontWeight: FontWeight.w600,
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+}

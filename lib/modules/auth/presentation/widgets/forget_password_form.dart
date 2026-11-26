@@ -1,9 +1,11 @@
+import 'package:animooo/core/functions/navigation.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../core/helpers/validation.dart';
 import '../../../../core/utils/app_strings.dart';
 import '../../../../core/widgets/cutom_text_form_field_widget_.dart';
 import '../../../onboarding/widgets/onboarding_button.dart';
+import '../views/otp_verification_view.dart';
 
 class ForgetPasswordForm extends StatelessWidget {
   const ForgetPasswordForm({super.key});
@@ -22,7 +24,9 @@ class ForgetPasswordForm extends StatelessWidget {
           const SizedBox(height: 40.0),
           CoreButton(
             text: AppStrings.forgetPassword,
-            click: () {},
+            click: () {
+              customReplacementNavigate(context, OtpVerificationView.routeName);
+            },
           ),
         ],
       ),

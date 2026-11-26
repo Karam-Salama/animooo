@@ -19,7 +19,7 @@ class AlreadyHaveAnAccount extends StatelessWidget {
         ),
         GestureDetector(
           onTap: () {
-            customNavigate(context, LoginView.routeName);
+            customReplacementNavigate(context, LoginView.routeName);
           },
           child: Text(
             AppStrings.login,

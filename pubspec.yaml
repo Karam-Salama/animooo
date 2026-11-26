@@ -22,6 +22,8 @@ dependencies:
   persistent_bottom_nav_bar: ^6.2.1
   # Email validation utility
   email_validator: ^3.0.0
+  # Fully customizable OTP Entry TextField for flutter,
+  flutter_otp_text_field: ^1.5.1+1
 
 #==================================  Dev  Dependencies  Section  ==============================
 dev_dependencies:

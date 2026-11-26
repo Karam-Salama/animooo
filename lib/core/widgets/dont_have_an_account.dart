@@ -19,7 +19,7 @@ class DontHaveAnAccount extends StatelessWidget {
         ),
         GestureDetector(
           onTap: () {
-            customNavigate(context, RegisterView.routeName);
+            customReplacementNavigate(context, RegisterView.routeName);
           },
           child: Text(
             AppStrings.signUp,

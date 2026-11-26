@@ -17,7 +17,9 @@ abstract class AppStrings {
   static const String email = "Email";
   static const String phone = "Phone";
   static const String password = "Password";
-
+  static const String back = "Back";
+  static const String cancel = "Cancel";
+  static const String confirm = "Confirm";
   static const String enterFullName = "Enter Your Name";
   static const String enterEmail = "Enter Your Email";
   static const String enterPhone = "Enter Your Phone";
@@ -27,4 +29,8 @@ abstract class AppStrings {
   static const String forgetPassword = "Forget Password";
   static const String forgetPasswordSubTitle =
       "Enter your registered email below to receive \n password reset instruction";
+
+  static const String otpVerification = "OTP Verfication";
+  static const String otpVerificationSubTitle =
+      "Please enter the 4 digit code sent your phone number";
 }

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../modules/auth/presentation/views/forget_paddword_view.dart';
 import '../../modules/auth/presentation/views/login_view.dart';
+import '../../modules/auth/presentation/views/otp_verification_view.dart';
 import '../../modules/auth/presentation/views/register_view.dart';
 import '../../modules/onboarding/views/onboarding_view.dart';
 import '../../modules/splash/views/splash_view.dart';
@@ -19,6 +20,9 @@ Route<dynamic> onGenerateRoute(RouteSettings settings) {
     case ForgetPasswordView.routeName:
       return MaterialPageRoute(
           builder: (context) => const ForgetPasswordView());
+    case OtpVerificationView.routeName:
+      return MaterialPageRoute(
+          builder: (context) => const OtpVerificationView());
     default:
       return MaterialPageRoute(builder: (context) => const Scaffold());
   }
